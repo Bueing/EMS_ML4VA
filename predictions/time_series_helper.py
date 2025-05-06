@@ -13,9 +13,7 @@ def to_3Darray(pd_X, pd_y, sequence_length):
     return np.array(X), np.array(y)
 
 
-
-
-def make_data_for_model(calls_filename='../data/clean/calls_by_district.csv', weather_filename='../data/clean/weather_clean.csv', sequence_length=14):
+def make_data_for_model(calls_filename='../data/calls_by_district.csv', weather_filename='../data/weather_clean.csv', sequence_length=14):
     import pandas as pd
     import numpy as np
     from sklearn.preprocessing import StandardScaler, OneHotEncoder
@@ -92,7 +90,7 @@ def make_data_for_model(calls_filename='../data/clean/calls_by_district.csv', we
 
     X_prepared = full_pipeline.fit_transform(pd_X)
 
-    # Convert to 3D array for LSTM/TCN
+    # Convert to 3D array
     X, y = to_3Darray(X_prepared, pd_y, sequence_length=sequence_length)
 
     return X, y, len(X_prepared[0])
