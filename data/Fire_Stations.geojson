@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Fire_Stations",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "NAME": "Friendship Fire Co", "OWNER": "Non Profit", "TYPE": "Fire/Rescue Station", "DESC_": "Station 1", "STATUS": "NA" }, "geometry": { "type": "Point", "coordinates": [ -78.151779124927998, 39.190373688697136 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "NAME": "Rouss Fire Co", "OWNER": "Non Profit", "TYPE": "Fire/Rescue Station", "DESC_": "Station 2", "STATUS": "NA" }, "geometry": { "type": "Point", "coordinates": [ -78.167420050587609, 39.184273630098502 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 3, "NAME": "South End Fire Co", "OWNER": "Non Profit", "TYPE": "Fire/Rescue Station", "DESC_": "Station 5", "STATUS": "NA" }, "geometry": { "type": "Point", "coordinates": [ -78.168713733876302, 39.178962189930182 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 7, "NAME": "Shawnee Fire Co", "OWNER": "Non Profit", "TYPE": "Fire/Rescue Station", "DESC_": "Station 4", "STATUS": "NA" }, "geometry": { "type": "Point", "coordinates": [ -78.180742552906935, 39.160892104115234 ] } }
+]
+}
